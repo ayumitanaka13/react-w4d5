@@ -49,8 +49,7 @@ class _App extends Component<AppProps, AppState> {
           onClick={() => this.onDivClick(todo.id)}
           style={this.style}
         >
-          {todo.id}
-          {todo.title}
+          {todo.id} - {todo.title}
         </div>
       );
     });
